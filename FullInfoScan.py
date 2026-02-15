@@ -52,44 +52,44 @@ def run_all_scans():
     results = {}
 
     try:
-        results["system_info"] = SystemScan.run()
+        results["SystemScanResults"] = SystemScan.run()
     except Exception as e:
-        results["system_info"] = {"error": str(e)}
+        results["SystemScanResults"] = {"error": str(e)}
 
     try:
-        results["ssh_keys"] = SSHScan.run()
+        results["SSHScanResults"] = SSHScan.run()
     except Exception as e:
-        results["ssh_keys"] = {"error": str(e)}
+        results["SSHScanResults"] = {"error": str(e)}
 
     try:
-        results["recon"] = ReconScan.run()
+        results["ReconScanResults"] = ReconScan.run()
     except Exception as e:
-        results["recon"] = {"error": str(e)}
+        results["ReconScanResults"] = {"error": str(e)}
 
     try:
-        results["process_environment"] = ProcessScan.run()
+        results["ProcessScanResults"] = ProcessScan.run()
     except Exception as e:
-        results["process_environment"] = {"error": str(e)}
+        results["ProcessScanResults"] = {"error": str(e)}
 
     try:
-        results["log_scan"] = LogScan.run()
+        results["LogScanResults"] = LogScan.run()
     except Exception as e:
-        results["log_scan"] = {"error": str(e)}
+        results["LogScanResults"] = {"error": str(e)}
 
     try:
-        results["environment_variables"] = EnvironScan.run()
+        results["EnvironScanResults"] = EnvironScan.run()
     except Exception as e:
-        results["environment_variables"] = {"error": str(e)}
+        results["EnvironScanResults"] = {"error": str(e)}
 
     try:
-        results["config_files"] = ConfigScan.run()
+        results["ConfigScanResults"] = ConfigScan.run()
     except Exception as e:
-        results["config_files"] = {"error": str(e)}
+        results["ConfigScanResults"] = {"error": str(e)}
 
     try:
-        results["bash_history"] = BashScan.run()
+        results["BashScanResults"] = BashScan.run()
     except Exception as e:
-        results["bash_history"] = {"error": str(e)}
+        results["BashScanResults"] = {"error": str(e)}
 
     return results
 
