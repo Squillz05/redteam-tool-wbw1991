@@ -48,9 +48,24 @@ def collect_ssh_config():
     if not ssh_dir:
         return None
 
+    config_raw = read_file(os.path.join(ssh_dir, "config"))
+    known_raw = read_file(os.path.join(ssh_dir, "known_hosts"))
+
+    if isinstance(config_raw, str):
+        config_lines = config_raw.splitlines()
+    else:
+        config_lines = config_raw
+
+
+    if isinstance(known_raw, str):
+        known_lines = known_raw.splitlines()
+    else:
+        known_lines = known_raw
+
+
     return {
-        "config": read_file(os.path.join(ssh_dir, "config")),
-        "known_hosts": read_file(os.path.join(ssh_dir, "known_hosts"))
+        "config": config_lines,
+        "known_hosts": known_lines
     }
 
 
