@@ -1,0 +1,2957 @@
+[
+    {
+        "keyword": "private",
+        "location": "SSHScanResults.private_keys.id_rsa",
+        "snippet": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn\nNhAAAAAwEAAQAAAYEAxWZ5UMtTrsMy8dNEgwbA6+2A51Zdy7gGqZrRb0sQP3x2R8V7OLI0\nsExLQehjlWLr1XPYaojPm+"
+    },
+    {
+        "keyword": "private",
+        "location": "SSHScanResults.private_keys.id_ed25519",
+        "snippet": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB7zP+dKWOFS4yLiASjPfaghxKhvq4Xt6TRI37YelpzQgAAAJhjdh6wY3Ye\nsAAAAAtzc2gtZWQyNTUxOQ"
+    },
+    {
+        "keyword": "ssh-ed25519",
+        "location": "SSHScanResults.config_files.known_hosts",
+        "snippet": "|1|3zqrL5JbZhaL4nC5fFEhzs5jXHY=|vwCKMN0K37+WMBsfkyG2pXuyW30= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB5PBIYDNjjh4FUyoN78Y01Bb+zDUVdTzvXdhY8R+T8f"
+    },
+    {
+        "keyword": "ssh-rsa",
+        "location": "SSHScanResults.config_files.known_hosts",
+        "snippet": "|1|+pJVN4Vb3715ZTm6OaZUZeeCBcM=|YwAYK/lS4C9MeV/EIMgrkORUvX0= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwZ70PgFMymIKiV4XIwkYZgRByuLKh0L6i7fo1J5svyybXgjBaOAMsqmPUDXSjANJCNaD9cJyBQvH3zMjpX0NyGPMwJehWiyzx5PL"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.running_services",
+        "snippet": "cloud-config.service"
+    },
+    {
+        "keyword": "login",
+        "location": "ReconScanResults.running_services",
+        "snippet": "systemd-logind.service"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.running_services",
+        "snippet": "systemd-user-sessions.service"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  acpid                                         1:2.0.33-1ubuntu1                       amd64        Advanced Configuration and Power Interface event daemon"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  alsa-base                                     1.0.25+dfsg-0ubuntu7                    all          ALSA driver configuration files"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  alsa-topology-conf                            1.2.5.1-2                               all          ALSA topology configuration files"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  alsa-ucm-conf                                 1.2.6.3-1ubuntu1.12                     all          ALSA Use Case Manager configuration files"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  alsa-utils                                    1.2.6-1ubuntu1                          amd64        Utilities for configuring and using ALSA"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  apt-config-icons                              0.15.2-2                                all          APT configuration snippet to enable icon downloads"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  apt-config-icons-hidpi                        0.15.2-2                                all          APT configuration snippet to enable HiDPI icon downloads"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  apt-config-icons-large                        0.15.2-2                                all          APT configuration snippet to enable large icon downloads"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  apt-config-icons-large-hidpi                  0.15.2-2                                all          APT configuration snippet to enable large HiDPI icon downloads"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  base-passwd                                   3.5.52build1                            amd64        Debian base system master password and group files"
+    },
+    {
+        "keyword": "passwd",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  base-passwd                                   3.5.52build1                            amd64        Debian base system master password and group files"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  command-not-found                             22.04.0                                 all          Suggest installation of packages in interactive bash sessions"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  compton-conf                                  0.16.0-1ubuntu1                         amd64        Compton Configurator for Qt"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  cracklib-runtime                              2.9.6-3.4build4                         amd64        runtime support for password checker library cracklib2"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  cups-pk-helper                                0.2.6-1ubuntu5                          amd64        PolicyKit helper to configure cups with fine-grained privileges"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  dbus-user-session                             1.12.20-2ubuntu4.1                      amd64        simple interprocess messaging system (systemd --user integration)"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  dconf-gsettings-backend:amd64                 0.40.0-3ubuntu0.1                       amd64        simple configuration storage system - GSettings back-end"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  dconf-service                                 0.40.0-3ubuntu0.1                       amd64        simple configuration storage system - D-Bus service"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  debconf                                       1.5.79ubuntu1                           all          Debian configuration management system"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  fontconfig                                    2.13.1-4.2ubuntu5                       amd64        generic font configuration library - support binaries"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  fontconfig-config                             2.13.1-4.2ubuntu5                       all          generic font configuration library - configuration"
+    },
+    {
+        "keyword": "secret",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  gir1.2-secret-1:amd64                         0.20.5-2                                amd64        Secret store (GObject-Introspection)"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  gpgconf                                       2.2.27-3ubuntu2.5                       amd64        GNU privacy guard - core configuration utilities"
+    },
+    {
+        "keyword": "private",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  gvfs-libs:amd64                               1.48.2-0ubuntu1                         amd64        userspace virtual filesystem - private libraries"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  hwdata                                        0.357-1                                 all          hardware identification / configuration data"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  kde-config-updates                            5.24.7-0ubuntu0.1                       amd64        Unattended updates configuration"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  kded5                                         5.92.0-0ubuntu1                         amd64        Extensible daemon for providing session services"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  keyboard-configuration                        1.205ubuntu3                            all          system-wide keyboard preferences"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libasound2-data                               1.2.6.1-1ubuntu1                        all          Configuration files and profiles for ALSA drivers"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libauthen-sasl-perl                           2.1600-1.1                              all          Authen::SASL - SASL Authentication framework"
+    },
+    {
+        "keyword": "private",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libbinutils:amd64                             2.38-4ubuntu2.12                        amd64        GNU binary utilities (private shared library)"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libconfig9:amd64                              1.5-0.4build1                           amd64        parsing/manipulation of structured configuration files"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libcrack2:amd64                               2.9.6-3.4build4                         amd64        pro-active password checker library"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libdconf1:amd64                               0.40.0-3ubuntu0.1                       amd64        simple configuration storage system - runtime library"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libdebconfclient0:amd64                       0.261ubuntu1                            amd64        Debian Configuration Management System (C-implementation library)"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libfontconfig1:amd64                          2.13.1-4.2ubuntu5                       amd64        generic font configuration library - runtime"
+    },
+    {
+        "keyword": "cookie",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libhttp-cookies-perl                          6.10-1                                  all          HTTP cookie jars"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5auth-data                               5.92.0-0ubuntu1                         all          Abstraction to system policy and authentication features"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5auth5:amd64                             5.92.0-0ubuntu1                         amd64        Abstraction to system policy and authentication features"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5authcore5:amd64                         5.92.0-0ubuntu1                         amd64        Abstraction to system policy and authentication features"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5config-bin                              5.92.0-0ubuntu1                         amd64        configuration settings framework for Qt"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5config-data                             5.92.0-0ubuntu1                         all          configuration settings framework for Qt"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5configcore5:amd64                       5.92.0-0ubuntu1                         amd64        configuration settings framework for Qt"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5configgui5:amd64                        5.92.0-0ubuntu1                         amd64        configuration settings framework for Qt"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5configwidgets-data                      5.92.0-0ubuntu1                         all          Extra widgets for easier configuration support."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5configwidgets5:amd64                    5.92.0-0ubuntu1                         amd64        Extra widgets for easier configuration support."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5globalaccel-bin                         5.92.0-0ubuntu1                         amd64        Configurable global shortcut support."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5globalaccel-data                        5.92.0-0ubuntu1                         all          Configurable global shortcut support."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5globalaccel5:amd64                      5.92.0-0ubuntu1                         amd64        Configurable global shortcut support."
+    },
+    {
+        "keyword": "private",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5globalaccelprivate5:amd64               5.92.0-0ubuntu1                         amd64        Configurable global shortcut support - private runtime library"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5globalaccelprivate5:amd64               5.92.0-0ubuntu1                         amd64        Configurable global shortcut support - private runtime library"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5kcmutils-data                           5.92.0-0ubuntu1                         all          Extra APIs to write KConfig modules."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5kcmutils5:amd64                         5.92.0-0ubuntu1                         amd64        Extra APIs to write KConfig modules."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5notifyconfig-data                       5.92.0-0ubuntu1                         all          Configuration system for KNotify."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5notifyconfig5:amd64                     5.92.0-0ubuntu1                         amd64        Configuration system for KNotify."
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5wallet-bin                              5.92.0-0ubuntu1                         amd64        Secure and unified container for user passwords."
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5wallet-data                             5.92.0-0ubuntu1                         all          Secure and unified container for user passwords."
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5wallet5:amd64                           5.92.0-0ubuntu1                         amd64        Secure and unified container for user passwords."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5xmlgui-bin:amd64                        5.92.0-0ubuntu2                         amd64        User configurable main windows."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5xmlgui-data                             5.92.0-0ubuntu2                         all          User configurable main windows."
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkf5xmlgui5:amd64                           5.92.0-0ubuntu2                         amd64        User configurable main windows."
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libkwalletbackend5-5:amd64                    5.92.0-0ubuntu1                         amd64        Secure and unified container for user passwords."
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libmhash2:amd64                               0.9.9.9-9build2                         amd64        Library for cryptographic hashing and message authentication"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libnetplan0:amd64                             0.106.1-7ubuntu0.22.04.4                amd64        YAML network configuration abstraction runtime library"
+    },
+    {
+        "keyword": "login",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpam-gnome-keyring:amd64                    40.0-3ubuntu3                           amd64        PAM module to unlock the GNOME keyring upon login"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpam-modules:amd64                          1.4.0-11ubuntu2.6                       amd64        Pluggable Authentication Modules for PAM"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpam-modules-bin                            1.4.0-11ubuntu2.6                       amd64        Pluggable Authentication Modules for PAM - helper binaries"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpam0g:amd64                                1.4.0-11ubuntu2.6                       amd64        Pluggable Authentication Modules library"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpolkit-agent-1-0:amd64                     0.105-33                                amd64        PolicyKit Authentication Agent API"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpolkit-gobject-1-0:amd64                   0.105-33                                amd64        PolicyKit Authorization API"
+    },
+    {
+        "keyword": "authorization",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpolkit-gobject-1-0:amd64                   0.105-33                                amd64        PolicyKit Authorization API"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libproxy-tools                                0.4.17-2                                amd64        automatic proxy configuration management library (tools)"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libproxy1v5:amd64                             0.4.17-2                                amd64        automatic proxy configuration management library (shared)"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpwquality-common                           1.4.4-1build2                           all          library for password quality checking and generation (data files)"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libpwquality1:amd64                           1.4.4-1build2                           amd64        library for password quality checking and generation"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsasl2-2:amd64                              2.1.27+dfsg2-3ubuntu1.2                 amd64        Cyrus SASL - authentication abstraction library"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsasl2-modules:amd64                        2.1.27+dfsg2-3ubuntu1.2                 amd64        Cyrus SASL - pluggable authentication modules"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsasl2-modules-db:amd64                     2.1.27+dfsg2-3ubuntu1.2                 amd64        Cyrus SASL - pluggable authentication modules (DB)"
+    },
+    {
+        "keyword": "secret",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsecret-1-0:amd64                           0.20.5-2                                amd64        Secret store"
+    },
+    {
+        "keyword": "secret",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsecret-common                              0.20.5-2                                all          Secret store (common files)"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsensors-config                             1:3.6.0-7ubuntu1                        all          lm-sensors configuration files"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsm6:amd64                                  2:1.2.3-1build2                         amd64        X11 Session Management library"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsnmp-base                                  5.9.1+dfsg-1ubuntu2.9                   all          SNMP configuration script, MIBs and documentation"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libsuitesparseconfig5:amd64                   1:5.10.1+dfsg-4build1                   amd64        configuration routines for all SuiteSparse modules"
+    },
+    {
+        "keyword": "passphrase",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libvolume-key1                                0.3.12-3.1build3                        amd64        Library for manipulating storage encryption keys and passphrases"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  libxau6:amd64                                 1:1.0.9-1build5                         amd64        X11 authorisation library"
+    },
+    {
+        "keyword": "login",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  login                                         1:4.8.1-2ubuntu2.2                      amd64        system login tools"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lshw                                          02.19.git.2021.06.19.996aaad9c7-2build1 amd64        information about hardware configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lxqt-config                                   0.17.1-0ubuntu1                         amd64        LXQt system settings center"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lxqt-config-l10n                              0.17.1-0ubuntu1                         all          Language package for lxqt-config"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lxqt-openssh-askpass                          0.17.0-0ubuntu1                         amd64        OpenSSH user/password GUI dialog for LXQt"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lxqt-policykit                                0.17.0-0ubuntu1                         amd64        LXQt authentication agent for PolicyKit"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lxqt-session                                  0.17.1-0ubuntu1                         amd64        session manager component for LXQt"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  lxqt-session-l10n                             0.17.1-0ubuntu1                         all          Language package for lxqt-session"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  netplan.io                                    0.106.1-7ubuntu0.22.04.4                amd64        YAML network configuration abstraction for various backends"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  obconf-qt                                     0.16.0-1ubuntu1                         amd64        Openbox configuration with a Qt interface"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pass                                          1.7.4-5                                 all          lightweight directory-based password manager"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pass-extension-otp                            1.2.0-2                                 all          pass extension for managing one-time-password tokens"
+    },
+    {
+        "keyword": "token",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pass-extension-otp                            1.2.0-2                                 all          pass extension for managing one-time-password tokens"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  passwd                                        1:4.8.1-2ubuntu2.2                      amd64        change and administer password and group data"
+    },
+    {
+        "keyword": "passwd",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  passwd                                        1:4.8.1-2ubuntu2.2                      amd64        change and administer password and group data"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pipewire-media-session                        0.4.1-2ubuntu1                          amd64        example session manager for PipeWire"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pkexec                                        0.105-33                                amd64        run commands as another user with polkit authorization"
+    },
+    {
+        "keyword": "authorization",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pkexec                                        0.105-33                                amd64        run commands as another user with polkit authorization"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  policykit-desktop-privileges                  0.21                                    all          run common desktop actions without password"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  pwgen                                         2.08-2build1                            amd64        Automatic Password generation"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  python3-configobj                             5.0.6-5ubuntu0.1                        all          simple but powerful config file reader and writer for Python 3"
+    },
+    {
+        "keyword": "token",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  python3-jwt                                   2.3.0-1ubuntu0.2                        all          Python 3 implementation of JSON Web Token"
+    },
+    {
+        "keyword": "jwt",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  python3-jwt                                   2.3.0-1ubuntu0.2                        all          Python 3 implementation of JSON Web Token"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  python3-keyring                               23.5.0-1                                all          store and access your passwords safely"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  python3-oauthlib                              3.2.0-1ubuntu0.1                        all          generic, spec-compliant implementation of OAuth for Python3"
+    },
+    {
+        "keyword": "secret",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  python3-secretstorage                         3.3.1-1                                 all          Python module for storing secrets - Python 3.x version"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  qml-module-org-kde-kconfig:amd64              5.92.0-0ubuntu1                         amd64        provides integration of QML and KDE Frameworks - kconfig"
+    },
+    {
+        "keyword": "private",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  qml-module-qtquick-privatewidgets:amd64       5.15.3-1                                amd64        Qt 5 Private Widgets QML module"
+    },
+    {
+        "keyword": "password",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  qtpass                                        1.3.2-3                                 amd64        GUI for password manager pass"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  session-migration                             0.3.6                                   amd64        Tool to migrate in user session settings"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  system-config-printer                         1.5.16-0ubuntu3                         all          graphical interface to configure the printing system"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  system-config-printer-common                  1.5.16-0ubuntu3                         all          backend and the translation files for system-config-printer"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  system-config-printer-udev                    1.5.16-0ubuntu3                         amd64        Utilities to detect and configure printers automatically"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  ucf                                           3.0043                                  all          Update Configuration File(s): preserve user changes to config files"
+    },
+    {
+        "keyword": "private",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  uno-libs-private                              1:7.3.7-0ubuntu0.22.04.10               amd64        LibreOffice UNO runtime environment -- private libraries used by public ones"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  update-inetd                                  4.51                                    all          inetd configuration file updater"
+    },
+    {
+        "keyword": "session",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  x11-session-utils                             7.7+4build2                             amd64        X session utilities"
+    },
+    {
+        "keyword": "auth",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  xauth                                         1:1.1-1build2                           amd64        X authentication utility"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  xinput                                        1.6.3-1build2                           amd64        Runtime configuration and test of XInput devices"
+    },
+    {
+        "keyword": "config",
+        "location": "ReconScanResults.installed_packages",
+        "snippet": "ii  xkb-data                                      2.33-1                                  all          X Keyboard Extension (XKB) configuration data"
+    },
+    {
+        "keyword": "login",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "root         577  0.0  0.2  16844  9216 ?        Ss   Feb14   0:00 /lib/systemd/systemd-logind"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "root         707  0.0  1.8 584872 74720 tty1     Ssl+ Feb14   0:01 /usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{c1c020d5-4e74-4217-afe5-0d73396a08b7} -background none -noreset -displayfd 17 -"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "root         800  0.0  0.3  63664 15232 ?        S    Feb14   0:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth8821388a-1d5b-478d-9c12-094ce6e01ef0 --id 1 --start /usr/bin/startl"
+    },
+    {
+        "keyword": "login",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "root         800  0.0  0.3  63664 15232 ?        S    Feb14   0:00 /usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth8821388a-1d5b-478d-9c12-094ce6e01ef0 --id 1 --start /usr/bin/startl"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+     813  0.0  0.1  23456  6144 ?        Ssl  Feb14   0:00 /usr/bin/pipewire-media-session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+     815  0.0  0.9 335544 36952 ?        Sl   Feb14   0:04 lxqt-session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+     835  0.0  0.1   8740  4224 ?        Ss   Feb14   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+     927  0.0  0.1   8300  4352 ?        S    Feb14   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 13 --address=unix:path=/ru"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+     945  0.0  0.7  54704 29684 ?        S    Feb14   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py"
+    },
+    {
+        "keyword": "token",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+   45915  0.0  0.0   2892  1664 ?        S    13:57   0:00 sh /home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/code-server --connection-to"
+    },
+    {
+        "keyword": "token",
+        "location": "ProcessScanResults.running_processes",
+        "snippet": "cyberra+   45919  0.0  3.5 11869464 142820 ?     Sl   13:57   0:07 /home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/node /home/cyberrange/.vscode-serv"
+    },
+    {
+        "keyword": "login",
+        "location": "ProcessScanResults.process_details.577.cmdline",
+        "snippet": "/lib/systemd/systemd-logind"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.707.cmdline",
+        "snippet": "/usr/lib/xorg/Xorg -nolisten tcp -auth /var/run/sddm/{c1c020d5-4e74-4217-afe5-0d73396a08b7} -background none -noreset -displayfd 17 -seat seat0 vt1"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.800.cmdline",
+        "snippet": "/usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth8821388a-1d5b-478d-9c12-094ce6e01ef0 --id 1 --start /usr/bin/startlxqt --user cyberrange --autologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ProcessScanResults.process_details.800.cmdline",
+        "snippet": "/usr/lib/x86_64-linux-gnu/sddm/sddm-helper --socket /tmp/sddm-auth8821388a-1d5b-478d-9c12-094ce6e01ef0 --id 1 --start /usr/bin/startlxqt --user cyberrange --autologin"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.813.cmdline",
+        "snippet": "/usr/bin/pipewire-media-session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.815.cmdline",
+        "snippet": "lxqt-session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.815.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.815.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.815.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.835.cmdline",
+        "snippet": "/usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.909.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.909.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.909.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.909.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.913.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.913.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.913.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.913.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.919.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.919.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.919.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.919.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.927.cmdline",
+        "snippet": "/usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 13 --address=unix:path=/run/user/1000/at-spi/bus_0"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.927.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.927.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.927.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.927.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.930.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.930.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.930.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.930.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.931.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.931.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.931.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.931.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.932.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.932.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.932.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.932.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.933.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.933.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.933.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.933.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.934.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.934.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.934.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.934.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.935.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.935.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.935.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.935.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.939.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.939.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.940.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.940.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.940.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.940.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.945.cmdline",
+        "snippet": "/usr/bin/python3 /usr/share/system-config-printer/applet.py"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.945.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.945.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.945.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.945.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.948.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.948.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.953.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.953.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.953.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.953.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.974.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.974.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.974.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.974.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.988.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.988.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.996.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.996.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1001.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1001.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1005.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1005.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1009.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1009.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1014.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1014.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1041.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1041.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.1041.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1041.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1043.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1043.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.1043.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1043.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1045.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1045.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.1045.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1045.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1058.environ.XDG_SESSION_PATH",
+        "snippet": "/org/freedesktop/DisplayManager/Session0"
+    },
+    {
+        "keyword": "auth",
+        "location": "ProcessScanResults.process_details.1058.environ.XAUTHORITY",
+        "snippet": "/home/cyberrange/.Xauthority"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.1058.environ.XDG_CONFIG_HOME",
+        "snippet": "/home/cyberrange/.config"
+    },
+    {
+        "keyword": "session",
+        "location": "ProcessScanResults.process_details.1058.environ.LXQT_SESSION_CONFIG",
+        "snippet": "session"
+    },
+    {
+        "keyword": "token",
+        "location": "ProcessScanResults.process_details.45915.cmdline",
+        "snippet": "sh /home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --start-server --enable"
+    },
+    {
+        "keyword": "token",
+        "location": "ProcessScanResults.process_details.45919.cmdline",
+        "snippet": "/home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/node /home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/serv"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.46321.environ.PATH",
+        "snippet": "/home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/gam"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.46321.environ.VSCODE_DEBUGPY_ADAPTER_ENDPOINTS",
+        "snippet": "/home/cyberrange/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c49253899c49afbf.txt"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.47038.environ.PATH",
+        "snippet": "/home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/gam"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.47038.environ.VSCODE_DEBUGPY_ADAPTER_ENDPOINTS",
+        "snippet": "/home/cyberrange/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c49253899c49afbf.txt"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.47545.environ.PATH",
+        "snippet": "/home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/gam"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.47545.environ.VSCODE_DEBUGPY_ADAPTER_ENDPOINTS",
+        "snippet": "/home/cyberrange/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c49253899c49afbf.txt"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.49465.environ.VSCODE_DEBUGPY_ADAPTER_ENDPOINTS",
+        "snippet": "/home/cyberrange/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c49253899c49afbf.txt"
+    },
+    {
+        "keyword": "config",
+        "location": "ProcessScanResults.process_details.49465.environ.PATH",
+        "snippet": "/home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/gam"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:03:41 willtest systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs wi"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:08 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:09 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:09 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:09 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:09 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:09 willtest systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs wi"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:09 willtest systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs wi"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:10 willtest dbus-daemon[544]: Unknown group \"power\" in message bus configuration file"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:10 willtest dbus-daemon[544]: [system] Reloaded configuration"
+    },
+    {
+        "keyword": "cookie",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:04:10 willtest avahi-daemon[5589]: Server startup complete. Host name is willtest.local. Local service cookie is 1188472588."
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:06:45 willtest kernel: [ 3732.949095] systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:37:21 willtest systemd[1]: Started Session 9 of User cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 00:44:24 willtest systemd[1]: session-9.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 01:35:21 willtest systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs wi"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 01:46:56 willtest systemd[1]: session-3.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 01:46:56 willtest systemd[1]: session-3.scope: Consumed 2.744s CPU time."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 01:49:54 willtest systemd[1]: session-6.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 01:49:54 willtest systemd[1]: session-6.scope: Consumed 18.772s CPU time."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 02:00:50 willtest systemd[1]: Started Session 11 of User cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 02:06:51 willtest systemd[1]: session-11.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 02:09:48 willtest systemd[1]: Started Session 12 of User cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 03:30:50 willtest systemd[1]: session-12.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 03:30:50 willtest systemd[1]: session-12.scope: Consumed 10.287s CPU time."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 03:59:16 willtest systemd[1]: Started Session 17 of User cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 04:08:17 willtest systemd[1]: session-17.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 04:08:17 willtest systemd[1]: session-17.scope: Consumed 1.386s CPU time."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 07:11:24 willtest systemd[1]: session-5.scope: Deactivated successfully."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 07:11:24 willtest systemd[1]: session-5.scope: Consumed 9min 7.518s CPU time."
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 11:45:39 willtest systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs wi"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 11:45:42 willtest kernel: [45669.406581] audit: type=1400 audit(1771173942.148:65): apparmor=\"STATUS\" operation=\"profile_replace\" profile=\"unconfined\" name=\"snap.firefox.hook.configure\" pid=457"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 13:57:13 willtest systemd[1]: Started Session 37 of User cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/syslog",
+        "snippet": "Feb 15 13:57:59 willtest systemd[1]: Started Session 38 of User cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:17:01 willtest CRON[35586]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:17:01 willtest CRON[35586]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:37:21 willtest sshd[36413]: Accepted password for cyberrange from ::1 port 34534 ssh2"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:37:21 willtest sshd[36413]: pam_unix(sshd:session): session opened for user cyberrange(uid=1000) by (uid=0)"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:37:21 willtest systemd-logind[577]: New session 9 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:37:21 willtest systemd-logind[577]: New session 9 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:44:24 willtest sshd[36413]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:44:24 willtest systemd-logind[577]: Session 9 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:44:24 willtest systemd-logind[577]: Session 9 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:44:24 willtest systemd-logind[577]: Removed session 9."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 00:44:24 willtest systemd-logind[577]: Removed session 9."
+    },
+    {
+        "keyword": "pwd",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:05:59 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991 ; USER=root ; COMMAND=/usr/bin/apt install zsh"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:05:59 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991 ; USER=root ; COMMAND=/usr/bin/apt install zsh"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:05:59 willtest sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:06:10 willtest sudo: pam_unix(sudo:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:17:01 willtest CRON[38950]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:17:01 willtest CRON[38950]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "pwd",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:17:44 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/bash"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:17:44 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/bash"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:17:44 willtest sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by (uid=1000)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:17:53 willtest sudo: pam_unix(sudo-i:session): session closed for user root"
+    },
+    {
+        "keyword": "pwd",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/rm /root/.bash_history"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/rm /root/.bash_history"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: pam_unix(sudo:session): session closed for user root"
+    },
+    {
+        "keyword": "pwd",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/touch /root/.bash_history"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/touch /root/.bash_history"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:31 willtest sudo: pam_unix(sudo:session): session closed for user root"
+    },
+    {
+        "keyword": "pwd",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/tee /root/.bash_history"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/tee /root/.bash_history"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: pam_unix(sudo:session): session closed for user root"
+    },
+    {
+        "keyword": "pwd",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/tee -a /root/.bash_history"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: cyberrange : TTY=pts/3 ; PWD=/home/cyberrange/redteam-tool-wbw1991/modules ; USER=root ; COMMAND=/usr/bin/tee -a /root/.bash_history"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:30:38 willtest sudo: pam_unix(sudo:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest sshd[1350]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest sshd[2350]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest systemd-logind[577]: Session 3 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest systemd-logind[577]: Session 3 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest systemd-logind[577]: Session 6 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest systemd-logind[577]: Session 6 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest systemd-logind[577]: Removed session 3."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:46:56 willtest systemd-logind[577]: Removed session 3."
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:49:54 willtest systemd-logind[577]: Removed session 6."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 01:49:54 willtest systemd-logind[577]: Removed session 6."
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:00:50 willtest sshd[40747]: Accepted password for cyberrange from 100.65.3.112 port 47084 ssh2"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:00:50 willtest sshd[40747]: pam_unix(sshd:session): session opened for user cyberrange(uid=1000) by (uid=0)"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:00:50 willtest systemd-logind[577]: New session 11 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:00:50 willtest systemd-logind[577]: New session 11 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:05:55 willtest sshd[40747]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:05:55 willtest systemd-logind[577]: Session 11 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:05:55 willtest systemd-logind[577]: Session 11 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:06:51 willtest systemd-logind[577]: Removed session 11."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:06:51 willtest systemd-logind[577]: Removed session 11."
+    },
+    {
+        "keyword": "auth",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:07:40 willtest sshd[40865]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=100.65.3.112  user=cyberrange"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:07:40 willtest sshd[40865]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=100.65.3.112  user=cyberrange"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:07:41 willtest sshd[40865]: Failed password for cyberrange from 100.65.3.112 port 41910 ssh2"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:09:48 willtest sshd[40867]: Accepted password for cyberrange from 100.65.3.112 port 44578 ssh2"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:09:48 willtest sshd[40867]: pam_unix(sshd:session): session opened for user cyberrange(uid=1000) by (uid=0)"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:09:48 willtest systemd-logind[577]: New session 12 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:09:48 willtest systemd-logind[577]: New session 12 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:17:01 willtest CRON[41351]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 02:17:01 willtest CRON[41351]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:10:01 willtest CRON[43466]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:10:01 willtest CRON[43466]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:17:01 willtest CRON[43907]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:17:01 willtest CRON[43907]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:28:31 willtest sshd[40867]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:28:31 willtest systemd-logind[577]: Session 12 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:28:31 willtest systemd-logind[577]: Session 12 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:30:01 willtest CRON[44208]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:30:01 willtest CRON[44208]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:30:50 willtest systemd-logind[577]: Removed session 12."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:30:50 willtest systemd-logind[577]: Removed session 12."
+    },
+    {
+        "keyword": "auth",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:59:00 willtest sshd[44219]: Connection closed by authenticating user cyberrange 100.65.3.112 port 48650 [preauth]"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:59:16 willtest sshd[44221]: Accepted password for cyberrange from 100.65.3.112 port 48660 ssh2"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:59:16 willtest sshd[44221]: pam_unix(sshd:session): session opened for user cyberrange(uid=1000) by (uid=0)"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:59:16 willtest systemd-logind[577]: New session 17 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 03:59:16 willtest systemd-logind[577]: New session 17 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:06:11 willtest sshd[44221]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:06:11 willtest systemd-logind[577]: Session 17 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:06:11 willtest systemd-logind[577]: Session 17 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:08:17 willtest systemd-logind[577]: Removed session 17."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:08:17 willtest systemd-logind[577]: Removed session 17."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:17:01 willtest CRON[45312]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 04:17:01 willtest CRON[45312]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 05:17:01 willtest CRON[45330]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 05:17:01 willtest CRON[45330]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 06:17:01 willtest CRON[45352]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 06:17:01 willtest CRON[45352]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 06:25:01 willtest CRON[45358]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 06:25:01 willtest CRON[45358]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 06:47:01 willtest CRON[45368]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 06:47:01 willtest CRON[45368]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 07:11:24 willtest systemd-logind[577]: Removed session 5."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 07:11:24 willtest systemd-logind[577]: Removed session 5."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 07:17:01 willtest CRON[45454]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 07:17:01 willtest CRON[45454]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 07:30:01 willtest CRON[45459]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 07:30:01 willtest CRON[45459]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 08:17:01 willtest CRON[45524]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 08:17:01 willtest CRON[45524]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 08:30:01 willtest CRON[45532]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 08:30:01 willtest CRON[45532]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 09:17:01 willtest CRON[45549]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 09:17:01 willtest CRON[45549]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 09:30:01 willtest CRON[45599]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 09:30:01 willtest CRON[45599]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 10:17:01 willtest CRON[45618]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 10:17:01 willtest CRON[45618]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 10:30:01 willtest CRON[45625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 10:30:01 willtest CRON[45625]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 11:17:01 willtest CRON[45642]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 11:17:01 willtest CRON[45642]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 11:30:01 willtest CRON[45653]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 11:30:01 willtest CRON[45653]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 12:17:01 willtest CRON[45766]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 12:17:01 willtest CRON[45766]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 12:30:01 willtest CRON[45772]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 12:30:01 willtest CRON[45772]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:17:01 willtest CRON[45789]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:17:01 willtest CRON[45789]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:30:01 willtest CRON[45795]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:30:01 willtest CRON[45795]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:13 willtest sshd[45807]: Accepted password for cyberrange from 100.65.3.112 port 60118 ssh2"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:13 willtest sshd[45807]: pam_unix(sshd:session): session opened for user cyberrange(uid=1000) by (uid=0)"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:13 willtest systemd-logind[577]: New session 37 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:13 willtest systemd-logind[577]: New session 37 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:23 willtest sshd[45807]: pam_unix(sshd:session): session closed for user cyberrange"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:23 willtest systemd-logind[577]: Session 37 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:23 willtest systemd-logind[577]: Session 37 logged out. Waiting for processes to exit."
+    },
+    {
+        "keyword": "auth",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:46 willtest sshd[45947]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=100.65.3.112  user=cyberrange"
+    },
+    {
+        "keyword": "user=",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:46 willtest sshd[45947]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=100.65.3.112  user=cyberrange"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:47 willtest sshd[45947]: Failed password for cyberrange from 100.65.3.112 port 52400 ssh2"
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:59 willtest sshd[45947]: Accepted password for cyberrange from 100.65.3.112 port 52400 ssh2"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:59 willtest sshd[45947]: pam_unix(sshd:session): session opened for user cyberrange(uid=1000) by (uid=0)"
+    },
+    {
+        "keyword": "login",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:59 willtest systemd-logind[577]: New session 38 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 13:57:59 willtest systemd-logind[577]: New session 38 of user cyberrange."
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 14:17:01 willtest CRON[47114]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 14:17:01 willtest CRON[47114]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 14:30:01 willtest CRON[47648]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 14:30:01 willtest CRON[47648]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 15:17:01 willtest CRON[49083]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 15:17:01 willtest CRON[49083]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 15:30:01 willtest CRON[49095]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/auth.log",
+        "snippet": "Feb 15 15:30:01 willtest CRON[49095]: pam_unix(cron:session): session closed for user root"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/kern.log",
+        "snippet": "Feb 15 11:45:42 willtest kernel: [45669.406581] audit: type=1400 audit(1771173942.148:65): apparmor=\"STATUS\" operation=\"profile_replace\" profile=\"unconfined\" name=\"snap.firefox.hook.configure\" pid=457"
+    },
+    {
+        "keyword": "auth",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.000000] kernel:   AMD AuthenticAMD"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.001072] kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  "
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.004544] kernel: No NUMA configuration found"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.014221] kernel: ACPI: Using ACPI (MADT) for SMP configuration information"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.057972] kernel: smpboot: x86: Booting SMP configuration:"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.137501] kernel: PCI: Using configuration type 1 for base access"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.137501] kernel: PCI: Using configuration type 1 for extended access"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.229858] kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.276189] kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 10"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.276430] kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.276653] kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.276875] kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.276989] kernel: ACPI: PCI: Interrupt link LNKS configured for IRQ 9"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.588891] kernel: TCP: Hash tables configured (established 32768 bind 32768)"
+    },
+    {
+        "keyword": "token",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    0.588990] kernel: MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)"
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[    2.359992] kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log."
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[   24.464846] systemd[1]: Configuration file /run/systemd/system/netplan-ovs-cleanup.service is marked world-inaccessible. This has no effect as configuration data is accessible via APIs without rest"
+    },
+    {
+        "keyword": "session",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[   24.673718] systemd[1]: Created slice User and Session Slice."
+    },
+    {
+        "keyword": "password",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[   24.673828] systemd[1]: Started Forward Password Requests to Wall Directory Watch."
+    },
+    {
+        "keyword": "config",
+        "location": "LogScanResults.log_files./var/log/dmesg",
+        "snippet": "[   24.761471] systemd[1]: Starting Load Kernel Module configfs..."
+    },
+    {
+        "keyword": "config",
+        "location": "EnvironScanResults.environment_variables.VSCODE_DEBUGPY_ADAPTER_ENDPOINTS",
+        "snippet": "/home/cyberrange/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c49253899c49afbf.txt"
+    },
+    {
+        "keyword": "config",
+        "location": "EnvironScanResults.environment_variables.PATH",
+        "snippet": "/home/cyberrange/.vscode-server/cli/servers/Stable-591199df409fbf59b4b52d5ad4ee0470152a9b31/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/gam"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# This is the sshd server system-wide configuration file.  See"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# sshd_config(5) for more information."
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# The strategy used for options in the default sshd_config shipped with"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "Include /etc/ssh/sshd_config.d/*.conf"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#SyslogFacility AUTH"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# Authentication:"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#LoginGraceTime 2m"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#PermitRootLogin prohibit-password"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#PermitRootLogin prohibit-password"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#MaxAuthTries 6"
+    },
+    {
+        "keyword": "session",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#MaxSessions 10"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#PubkeyAuthentication yes"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# Expect .ssh/authorized_keys2 to be disregarded by default in future."
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#AuthorizedKeysFile\t.ssh/authorized_keys .ssh/authorized_keys2"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#AuthorizedPrincipalsFile none"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#AuthorizedKeysCommand none"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#AuthorizedKeysCommandUser nobody"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#HostbasedAuthentication no"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# HostbasedAuthentication"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# To disable tunneled clear text passwords, change to no here!"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#PasswordAuthentication yes"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#PasswordAuthentication yes"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#PermitEmptyPasswords no"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# Change to yes to enable challenge-response passwords (beware issues with"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "KbdInteractiveAuthentication no"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#KerberosAuthentication no"
+    },
+    {
+        "keyword": "passwd",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#KerberosOrLocalPasswd yes"
+    },
+    {
+        "keyword": "token",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#KerberosGetAFSToken no"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#GSSAPIAuthentication no"
+    },
+    {
+        "keyword": "credential",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#GSSAPICleanupCredentials yes"
+    },
+    {
+        "keyword": "apikey",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "#GSSAPIKeyExchange no"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# Set this to 'yes' to enable PAM authentication, account processing,"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# and session processing. If this is enabled, PAM authentication will"
+    },
+    {
+        "keyword": "session",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# and session processing. If this is enabled, PAM authentication will"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# be allowed through the KbdInteractiveAuthentication and"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# PasswordAuthentication.  Depending on your PAM configuration,"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# PasswordAuthentication.  Depending on your PAM configuration,"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# PasswordAuthentication.  Depending on your PAM configuration,"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# PAM authentication via KbdInteractiveAuthentication may bypass"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# the setting of \"PermitRootLogin without-password\"."
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# the setting of \"PermitRootLogin without-password\"."
+    },
+    {
+        "keyword": "session",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# If you just want the PAM account and session checks to run without"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# PAM authentication, then enable this but set PasswordAuthentication"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# PAM authentication, then enable this but set PasswordAuthentication"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/sshd_config",
+        "snippet": "# and KbdInteractiveAuthentication to 'no'."
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# This is the ssh client system-wide configuration file.  See"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# ssh_config(5) for more information.  This file provides defaults for"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# users, and the values can be changed in per-user configuration files"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# Configuration data is parsed as follows:"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# Any configuration value is only changed the first time it is set."
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# configuration file, and defaults at the end."
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "# ssh_config(5) man page."
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "Include /etc/ssh/ssh_config.d/*.conf"
+    },
+    {
+        "keyword": "password",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "#   PasswordAuthentication yes"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "#   PasswordAuthentication yes"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "#   HostbasedAuthentication no"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "#   GSSAPIAuthentication no"
+    },
+    {
+        "keyword": "credential",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "#   GSSAPIDelegateCredentials no"
+    },
+    {
+        "keyword": "apikey",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "#   GSSAPIKeyExchange no"
+    },
+    {
+        "keyword": "auth",
+        "location": "ConfigScanResults.config_files./etc/ssh/ssh_config",
+        "snippet": "    GSSAPIAuthentication yes"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "bin:x:2:2:bin:/bin:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "sys:x:3:3:sys:/dev:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "games:x:5:60:games:/usr/games:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "man:x:6:12:man:/var/cache/man:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "mail:x:8:8:mail:/var/mail:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "news:x:9:9:news:/var/spool/news:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "proxy:x:13:13:proxy:/bin:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "backup:x:34:34:backup:/var/backups:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "messagebus:x:102:105::/nonexistent:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "syslog:x:104:111::/home/syslog:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "_apt:x:105:65534::/nonexistent:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "tcpdump:x:108:116::/nonexistent:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "usbmux:x:109:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "dnsmasq:x:110:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "kernoops:x:111:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "avahi:x:112:119:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "cups-pk-helper:x:113:120:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "rtkit:x:114:121:RealtimeKit,,,:/proc:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "fwupd-refresh:x:116:123:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "saned:x:117:125::/var/lib/saned:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "colord:x:118:126:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "geoclue:x:120:128::/var/lib/geoclue:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "pulse:x:121:129:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/passwd",
+        "snippet": "sshd:x:123:65534::/run/sshd:/usr/sbin/nologin"
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./etc/resolv.conf",
+        "snippet": "# configured search domains."
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/bash.bashrc",
+        "snippet": "# To enable the settings / commands in this file for login shells as well,"
+    },
+    {
+        "keyword": "pwd",
+        "location": "ConfigScanResults.config_files./etc/bash.bashrc",
+        "snippet": "#    PROMPT_COMMAND='echo -ne \"\\033]0;${USER}@${HOSTNAME}: ${PWD}\\007\"'"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./etc/bash.bashrc",
+        "snippet": "if [ ! -e \"$HOME/.sudo_as_admin_successful\" ] && [ ! -e \"$HOME/.hushlogin\" ] ; then"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.bashrc",
+        "snippet": "# ~/.bashrc: executed by bash(1) for non-login shells."
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.profile",
+        "snippet": "# ~/.profile: executed by the command interpreter for login shells."
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.profile",
+        "snippet": "# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login"
+    },
+    {
+        "keyword": "login",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.profile",
+        "snippet": "# for ssh logins, install and configure the libpam-umask package."
+    },
+    {
+        "keyword": "config",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.profile",
+        "snippet": "# for ssh logins, install and configure the libpam-umask package."
+    },
+    {
+        "keyword": "private",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.profile",
+        "snippet": "# set PATH so it includes user's private bin if it exists"
+    },
+    {
+        "keyword": "private",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.profile",
+        "snippet": "# set PATH so it includes user's private bin if it exists"
+    },
+    {
+        "keyword": "ssh-rsa",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.ssh/authorized_keys",
+        "snippet": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJ2/VOuhrj0pOPB4QxHgI9J3MhjKbqS6PdqprXiGVPP6sElTVME5UodoX2EZlD5oIbs4CJlsN1Y4QYPbVP3P06QmBaSzFmCcTZnqQxa9hVzltFZiCJBGpOvMNgCJujUOKuFKxDKyHhPOqXFML/NL0QrOGzV+SQOST5"
+    },
+    {
+        "keyword": "ssh-ed25519",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.ssh/known_hosts",
+        "snippet": "|1|3zqrL5JbZhaL4nC5fFEhzs5jXHY=|vwCKMN0K37+WMBsfkyG2pXuyW30= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB5PBIYDNjjh4FUyoN78Y01Bb+zDUVdTzvXdhY8R+T8f"
+    },
+    {
+        "keyword": "ssh-rsa",
+        "location": "ConfigScanResults.config_files./home/cyberrange/.ssh/known_hosts",
+        "snippet": "|1|+pJVN4Vb3715ZTm6OaZUZeeCBcM=|YwAYK/lS4C9MeV/EIMgrkORUvX0= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwZ70PgFMymIKiV4XIwkYZgRByuLKh0L6i7fo1J5svyybXgjBaOAMsqmPUDXSjANJCNaD9cJyBQvH3zMjpX0NyGPMwJehWiyzx5PL"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "git config --global user.name \"Squillz05\""
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "git config --global user.email \"sqzwill05@gmail.com\""
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "ls -l ~/.ssh/config"
+    },
+    {
+        "keyword": "auth",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "cat ~/.ssh/authorized_keys"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "nano ~/.ssh/config"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "chmod 600 ~/.ssh/config"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "ip config"
+    },
+    {
+        "keyword": "passwd",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "sudo passwd cyberrange"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "nano config.json "
+    },
+    {
+        "keyword": "private",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "cd private/"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "python3 ConfigScan.py "
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "python3 ConfigScan.py "
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "git commit -m \" Config scan done, I looked up and researched some of the most important configs to show , it gets noisy but im very sure that if the user can grep the full scan output or simply know w"
+    },
+    {
+        "keyword": "config",
+        "location": "BashScanResults.user_history.bash_history",
+        "snippet": "git commit -m \" similar commit to configscan , researched and looked into most important logs to have scanned and picked those, all modules done but its like 8 modules that all use a bunch of differen"
+    }
+]
