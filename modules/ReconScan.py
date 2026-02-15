@@ -6,7 +6,7 @@ Purpose: simple recon of a compromised linux box
 
 This module collects: Running services, Open ports, Installed packages
 
-Can be run standalone or imported by FullInfoScan.py
+Can be run by itself or imported by FullInfoScan.py
 """
 
 import subprocess

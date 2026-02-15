@@ -135,7 +135,7 @@ def main():
     output_file = f"{file_name}_{num}.json"
 
     if save_json(results, output_file):
-        print(f"[+] Scan results saved to {output_file}")
+        print(f"Scan results saved to {output_file}")
 
 
     cfg["output_number"] = num + 1
