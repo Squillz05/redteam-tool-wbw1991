@@ -9,6 +9,7 @@ This script:
 2. Puts all results into a dictionary
 3. Saves the final JSON to an output file 
 4. Prints results ONLY if config.json says always_print = true
+
 """
 
 import json
@@ -28,20 +29,21 @@ from modules import BashScan
 
 def load_config():
     try:
+
         with open("config.json", "r") as f:
             return json.load(f)
-    except Exception:
-        return {
-            "output_filename": "full_scan_output",
-            "output_number": 1,
-            "always_print": False
-        }
+        
+    except Exception as e:
+        print(f"ERROR: Could not load config.json, Will use DEFUALTS: {e}")
+        return {"output_filename": "full_scan_output","output_number": 1,"always_print": False}
 
 
 def save_config(cfg):
     try:
+
         with open("config.json", "w") as f:
             json.dump(cfg, f, indent=4)
+
     except Exception as e:
         print(f"ERROR: Could not update config.json: {e}")
 
@@ -97,9 +99,12 @@ Saves the aggregated scan results to a JSON file.
 """
 def save_json(data, output_path):
     try:
+
         with open(output_path, "w") as f:
             json.dump(data, f, indent=4)
+            
         return True
+    
     except Exception as e:
         print(f" ERROR SAVING JSON: {e}")
         return False
@@ -119,21 +124,21 @@ def main():
 
     results = run_all_scans()
 
-    results["_metadata"] = {
-        "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
-    }
+    now_utc = datetime.datetime.utcnow()
+
+    results["_metadata"] = {"generated_at": now_utc.isoformat() + "Z", "generated_readable": now_utc.strftime("%B %d, %Y %H:%M UTC")}
 
 
-    base_name = cfg.get("output_filename", "full_scan_output")
-    number = cfg.get("output_number", 1)
+    file_name = cfg.get("output_filename", "full_scan_output")
+    num = cfg.get("output_number", 1)
 
-    output_file = f"{base_name}_{number}.json"
+    output_file = f"{file_name}_{num}.json"
 
     if save_json(results, output_file):
         print(f"[+] Scan results saved to {output_file}")
 
 
-    cfg["output_number"] = number + 1
+    cfg["output_number"] = num + 1
     save_config(cfg)
 
     if cfg.get("always_print", False):
