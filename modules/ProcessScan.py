@@ -35,7 +35,7 @@ def get_running_processes():
 
 """
 Collect command line for a given PID.
-Returns a string or an error message.
+Returns a string or an error. 
 """
 def get_cmdline(pid):
 
@@ -51,7 +51,7 @@ def get_cmdline(pid):
 
 """
 Collect environ vars for a given PID.
-Returns a dict of key=value pairs or an error message.
+Returns a dict of key and value pairs or an error.
 """
 def get_environ(pid):
 
@@ -97,7 +97,7 @@ def collect_process_details():
 
 """
 Main function used by FullInfoScan.py
-Returns a dict of process information.
+Returns a dict of process info
 """
 def run():
 
