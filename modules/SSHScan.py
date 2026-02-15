@@ -12,20 +12,11 @@ Can be run byu itself or imported by FullInfoScan.py
 import os
 import json
 
+try:
+    from .utils import read_file, get_user_home
+except ImportError:
+    from utils import read_file, get_user_home
 
-""" reads a file and return its contents or None."""
-def read_file(path):
-
-    try:
-
-        if os.path.exists(path):
-            with open(path, "r") as f:
-                return f.read()
-        else:
-            return "does not exist"
-        
-    except Exception:
-        return "unreadable"
 
 
 """Return the path to ~/.ssh for the current user."""
