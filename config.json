@@ -1,5 +1,5 @@
 {
     "output_filename": "full_scan_output",
-    "output_number": 1,
-    "always_print": true
+    "output_number": 2,
+    "always_print": false
 }

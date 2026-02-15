@@ -1,0 +1,89 @@
+{
+    "system_info": {
+        "host": null,
+        "os": {
+            "system": "Linux",
+            "release": "6.8.0-90-generic",
+            "version": "#91~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 15:20:45 UTC 2",
+            "machine": "x86_64",
+            "processor": "x86_64"
+        },
+        "kernel": "6.8.0-90-generic",
+        "uptime_seconds": 1051.37,
+        "users": [
+            "root",
+            "daemon",
+            "bin",
+            "sys",
+            "sync",
+            "games",
+            "man",
+            "lp",
+            "mail",
+            "news",
+            "uucp",
+            "proxy",
+            "www-data",
+            "backup",
+            "list",
+            "irc",
+            "gnats",
+            "nobody",
+            "systemd-network",
+            "systemd-resolve",
+            "messagebus",
+            "systemd-timesync",
+            "syslog",
+            "_apt",
+            "tss",
+            "uuidd",
+            "tcpdump",
+            "usbmux",
+            "dnsmasq",
+            "kernoops",
+            "avahi",
+            "cups-pk-helper",
+            "rtkit",
+            "whoopsie",
+            "fwupd-refresh",
+            "saned",
+            "colord",
+            "sddm",
+            "geoclue",
+            "pulse",
+            "hplip",
+            "cyberrange",
+            "sshd"
+        ],
+        "interfaces": [
+            "1: lo    inet 127.0.0.1/8 scope host lo\\       valid_lft forever preferred_lft forever",
+            "1: lo    inet6 ::1/128 scope host \\       valid_lft forever preferred_lft forever",
+            "2: ens3    inet 100.65.7.207/16 brd 100.65.255.255 scope global dynamic noprefixroute ens3\\       valid_lft 85380sec preferred_lft 85380sec",
+            "2: ens3    inet6 fe80::f816:3eff:fedf:dc8b/64 scope link \\       valid_lft forever preferred_lft forever"
+        ]
+    },
+    "ssh_keys": {
+        "error": "module 'modules.SSHScan' has no attribute 'run'"
+    },
+    "recon": {
+        "error": "module 'modules.ReconScan' has no attribute 'run'"
+    },
+    "process_environment": {
+        "error": "module 'modules.ProcessScan' has no attribute 'run'"
+    },
+    "log_scan": {
+        "error": "module 'modules.LogScan' has no attribute 'run'"
+    },
+    "environment_variables": {
+        "error": "module 'modules.EnvironScan' has no attribute 'run'"
+    },
+    "config_files": {
+        "error": "module 'modules.ConfigScan' has no attribute 'run'"
+    },
+    "bash_history": {
+        "error": "module 'modules.BashScan' has no attribute 'run'"
+    },
+    "_metadata": {
+        "generated_at": "2026-02-15T04:22:03.519638Z"
+    }
+}
