@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 FullInfoScan.py
+Author: William Walker
 Purpose: Run all scanning modules and aggregate results into a single JSON report.
 
 This script:

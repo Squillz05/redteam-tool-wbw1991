@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 """
+JSONScan.py
+Author: William Walker
+Purpose: Analyze FullInfoScan JSON output and extract any secrets or creds found!
+
+This script:
+1. Loads a FullInfoScan JSON file
+2. Searches for secrets, credentials, tokens, keys, and misconfigurations
+3. Produces a json of findings
 
 """
 
